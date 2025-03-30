@@ -1,0 +1,17 @@
+### VER TODAS LAS PELICULAS
+GET http://localhost:3002/movies
+
+
+### CREAR UNA PELICULA
+POST http://localhost:3002/movies
+Content-Type: application/json
+
+{
+  "title": "The Matrix",
+  "year": 1999,
+  "director": "The Wachowskis",
+  "duration": 136,
+  "rate": 9.0,
+  "poster": "https://example.com/matrix-poster.jpg",
+  "genre": ["Action", "Sci-Fi", "Thriller"]
+}

@@ -9,6 +9,7 @@
   "scripts": {
     "start:mysql": "node --watch server-with-mysql.js",
     "start:local": "node --watch server-with-local.js",
+    "start:sequalize": "node --watch server-with-sequalize.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7",
     "zod": "^3.24.2"
   }
 }
